@@ -1,5 +1,12 @@
 {
+  "scripts": {
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "firebase": "^9.15.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
